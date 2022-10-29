@@ -1,0 +1,114 @@
+
+body {
+  font-family: Montserrat, serif;
+}
+
+main > section:first-child {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+center > div {
+  margin-bottom: 0.5em;
+}
+
+#profile-photo {
+  width: max(12%, 150px);
+  border-radius: 16px;
+}
+
+#profile-name {
+  font-weight: 600;
+  font-size: 1.6em;
+  margin-bottom: 1%;
+}
+
+#location {
+  font-weight: 600;
+  margin-top: 0.6vh;
+  margin-bottom: 1.5vh;
+  opacity: 0.5;
+}
+
+#stats {
+  display: grid;
+  max-width: 400px;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-column-gap: 1.2em;
+}
+
+#stats > div {
+  padding: 0.8em;
+  border-radius: 12px;
+  background-color: #DDDDDD;
+}
+
+.number {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: 1em;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11px;
+  grid-template-areas: "one two two"
+                       "three three four"
+                       "five six four";
+}
+
+#gallery > img {
+  object-fit: cover;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+#gallery > img:nth-child(1) {
+  grid-area: one;
+}
+
+#gallery > img:nth-child(2) {
+  grid-area: two;
+}
+
+#gallery > img:nth-child(3) {
+  grid-area: three;
+}
+
+#gallery > img:nth-child(4) {
+  grid-area: four;
+}
+
+#gallery > img:nth-child(5) {
+  grid-area: five;
+}
+
+#gallery > img:nth-child(6) {
+  grid-area: six;
+}
+
+footer {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 35rem) {
+  #gallery {
+    gap: 1.5rem;
+  }
+
+  body {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
