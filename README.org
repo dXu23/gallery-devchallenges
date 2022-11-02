@@ -1,0 +1,42 @@
+#+TITLE: Gallery Page
+#+AUTHOR: dXu23
+
+Solution for a challenge from [[https://devchallenges.io][Devchallenges.io]]
+
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[https://papaya-baklava-eeed97.netlify.app/][Demo]] | [[https://github.com/dXu23/gallery-devchallenges][Solution]]
+
+#+TOC: headlines 2
+
+* Overview
+[[./gallery.png]]
+
+** Where can I see your demo?
+
+Right [[https://papaya-baklava-eeed97.netlify.app/][here]]
+
+** What was your experience?
+
+I thought it was actually kind of easy since CSS grid took care
+of quite a lot of the layout for me.
+
+** What have you learned or improved?
+
+I learned how overpowered grid-template-areas was.
+
+** Your wisdom? :)
+
+Use CSS grid for a grid layout.
+
+** Built with
+
+HTML, CSS, and Grid (if that counts).
+
+* Features
+
+This application/site was created as a submission to a [[https://devchallenges.io][DevChallenges]]
+challenge.
+
+* Contact
+- [[https://github.com/dXu23][Github]]
+- [[https://rad-sunshine-871fb5.netlify.app/][Website]]
